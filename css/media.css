@@ -412,7 +412,10 @@
         transform: none !important;
     }
     .billbord {
-        padding-top: 170px;
+        padding-top: 145px;
+    }
+    .billbord__bottom {
+        margin-top: 85px;
     }
     .title-big {
         font-size: 18px;
@@ -448,13 +451,13 @@
         max-width: 200px;
     }
     .advantages {
-        padding-bottom: 55px;
+        padding-bottom: 45px;
     }
     .figures img {
         transform: scale(0.3);
     }
     .services {
-        padding-top: 45px;
+        padding-top: 38px;
         padding-bottom: 55px;
     }
     .catalog {
@@ -515,7 +518,8 @@
         padding: 25px 20px;
     }
     .consultation {
-        padding: 65px 0;
+        padding-top: 50px;
+        padding-bottom: 65px;
     }
     .portfolio {
         padding-top: 40px;
@@ -665,6 +669,30 @@
         left: -155px;
         bottom: -225px;
     }
+    .menu-overlay {
+        top: 105px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        z-index: -1;
+        display: none;
+    }
+    .figures_1 {
+        bottom: -235px;
+        left: -179px;
+    }
+    .figures_4 {
+        top: -65px;
+    }
+    .figures_3 {
+        bottom: -60px;
+    }
+    .figures_2 {
+        top: -184px;
+        right: -258px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -705,6 +733,7 @@
     .header__bottom {
         display: block !important;
     }
+    .menu-overlay,
     .show-mobile {
         display: none !important;
     }
