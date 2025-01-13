@@ -419,7 +419,7 @@
     }
     .title-big {
         font-size: 18px;
-        max-width: 304px;
+        max-width: 340px;
     }
     .title-big strong {
         font-size: 25px;
@@ -448,7 +448,7 @@
         gap: 15px;
     }
     .item-box .title-small {
-        max-width: 200px;
+        max-width: 185px;
     }
     .advantages {
         padding-bottom: 45px;
@@ -692,6 +692,9 @@
     .figures_2 {
         top: -184px;
         right: -258px;
+    }
+    .billbord__item br {
+        display: none;
     }
 }
 
