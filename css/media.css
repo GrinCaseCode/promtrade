@@ -484,11 +484,16 @@
     }
     .item-catalog {
         font-size: 13px;
+        text-align: center;
+    }
+    .item-catalog__bottom {
+        align-items: center;
     }
     .catalog__bottom {
         margin-top: 30px;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        text-align: center;
     }
     .catalog__bottom .btn-main {
         margin: 0 auto;
@@ -648,6 +653,17 @@
     }
     .header .header__bottom .phone-main {
         font-size: 16px;
+    }
+    .services .title-section {
+        margin-bottom: 25px;
+    }
+    .item-catalog .btn-main {
+        height: 38px;
+        width: 100%;
+    }
+    .figures_5 {
+        left: -155px;
+        bottom: -225px;
     }
 }
 
