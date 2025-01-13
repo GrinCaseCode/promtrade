@@ -1097,3 +1097,12 @@ form {
 	top: 7px;
 	transform: rotate(-45deg); 
 }
+.modal-block {
+	padding: 0;
+	background: transparent;
+	display: none;
+}
+.modal-block .form-page {
+	width: 440px;
+	max-width: 100%;
+}

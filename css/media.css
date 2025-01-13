@@ -270,6 +270,9 @@
     .header.nav-up {
         transform: translateY(-185px);
     }
+    .modal-block .form-page {
+        width: 380px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -393,6 +396,12 @@
     }
     .header.nav-up {
         transform: translateY(-160px);
+    }
+    .descr-form {
+        max-width: 257px;
+    }
+    .modal-block .form-page {
+        width: 368px;
     }
 }
 
@@ -695,6 +704,12 @@
     }
     .billbord__item br {
         display: none;
+    }
+    .descr-form {
+        max-width: 300px;
+    }
+    .fancybox-slide--html {
+        padding: 15px;
     }
 }
 
